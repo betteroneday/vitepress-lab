@@ -3,7 +3,7 @@ name: build to my github
 on:
   push:
     branches:
-      - docs-zh
+      - main
 
 jobs:
   deploy:
@@ -18,7 +18,7 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install
       - name: Build
-        run: pnpm docs-build
+        run: pnpm docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
