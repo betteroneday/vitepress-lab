@@ -1,4 +1,4 @@
-name: build to my github
+name: Deploy
 
 on:
   push:
@@ -10,15 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'pnpm'
-      - run: pnpm install
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+
       - name: Build
-        run: pnpm docs:build
+        run: yarn docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
