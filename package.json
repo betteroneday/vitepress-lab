@@ -4,6 +4,7 @@
   "main": "index.js",
   "repository": "git@gitee.com:xunshaoxuan/vitepress-lab.git",
   "author": "wjs <imwangxuan@gmail.com>",
+  "packageManager": "pnpm@7.14.2",
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs",
