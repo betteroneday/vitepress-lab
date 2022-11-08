@@ -1,0 +1,20 @@
+{
+  "name": "vitepress-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitee.com:xunshaoxuan/vitepress-lab.git",
+  "author": "wjs <imwangxuan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "start": "vitepress serve docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.27",
+    "vue": "^3.2.41"
+  }
+}
