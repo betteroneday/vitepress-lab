@@ -5,7 +5,7 @@ title: 首页
 titleTemplate: 基于vitepress超级方便的md文档工具
 
 hero: 
-  name: MD文档
+  name: 俊爽MD文档
   # text: text
   tagline: 基于vitepress超级方便的md文档工具
   actions:
