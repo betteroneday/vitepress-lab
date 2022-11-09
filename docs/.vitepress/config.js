@@ -8,6 +8,8 @@ export default {
   appearance: true,
   // 使用 git commit 获取时间戳。 此选项启用默认主题以显示页面的最后更新时间
   lastUpdated: true,
+  // 当设置为 true 时，VitePress 不会因为无效链接而导致构建失败。
+  ignoreDeadLinks: true,
   markdown: {
     // 代码显示行号
     lineNumbers: false
