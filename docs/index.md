@@ -14,7 +14,7 @@ hero:
       link: https://github.com/vuejs/vitepress
     - theme: brand
       text: 开始
-      link: /start/index
+      link: /guide/intro
 
 features:
   - title: 特点1
