@@ -7,6 +7,7 @@
   "packageManager": "pnpm@7.14.2",
   "license": "MIT",
   "scripts": {
+    "serve": "vitepress dev docs",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "start": "vitepress serve docs",

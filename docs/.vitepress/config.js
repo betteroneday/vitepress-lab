@@ -1,6 +1,6 @@
 export default {
   // 网站的标题，也用作所有页面标题的后缀
-  title: '我是一个好文档',
+  title: '售后前端文档',
   // 网站的描述
   description: 'Just playing around.',
   base: '/vitepress-lab/',
@@ -16,17 +16,17 @@ export default {
   },
   themeConfig: {
     // 导航栏
-    nav: [
-      { text: '导航1', link: '/guide' },
-      {
-        text: '更多',
-        items: [
-          { text: '导航2', link: '/item-1' },
-          { text: '导航3', link: '/item-2' },
-          { text: '导航4', link: '/item-3' }
-        ]
-      }
-    ],
+    // nav: [
+    //   { text: '导航1', link: '/guide' },
+    //   {
+    //     text: '更多',
+    //     items: [
+    //       { text: '导航2', link: '/item-1' },
+    //       { text: '导航3', link: '/item-2' },
+    //       { text: '导航4', link: '/item-3' }
+    //     ]
+    //   }
+    // ],
     // 侧边栏
     sidebar: [
       {

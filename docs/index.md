@@ -2,31 +2,31 @@
 layout: home
 
 title: 首页
-titleTemplate: 基于vitepress超级方便的md文档工具
+# titleTemplate: 售后前端文档
 
 hero: 
-  name: 俊爽的😆😆文档
+  name: 售后前端文档
   # text: text
-  tagline: 基于vitepress超级方便的md文档工具
+  tagline: 便捷开发，高效交流
   actions:
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+    # - theme: alt
+    #   text: View on GitHub
+    #   link: https://github.com/vuejs/vitepress
     - theme: brand
       text: 开始
       link: /guide/intro
 
-features:
-  - title: 特点1
-    details: 特点描述
-  - title: 特点2
-    details: 特点描述
-  - title: 特点3
-    details: 特点描述
-  - title: 特点4
-    details: 特点描述
-  - title: 特点5
-    details: 特点描述
-  - title: 特点6
-    details: 特点描述
+# features:
+#   - title: 特点1
+#     details: 特点描述
+#   - title: 特点2
+#     details: 特点描述
+#   - title: 特点3
+#     details: 特点描述
+#   - title: 特点4
+#     details: 特点描述
+#   - title: 特点5
+#     details: 特点描述
+#   - title: 特点6
+#     details: 特点描述
 ---
